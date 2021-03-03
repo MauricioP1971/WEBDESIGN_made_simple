@@ -46,6 +46,7 @@ body {
 
 .header-nav > ul > li {
   display: inline-block;
+  margin-left: .4rem
 }
 
 .header-nav > ul > li > a:link {
