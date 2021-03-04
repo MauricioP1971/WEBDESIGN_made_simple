@@ -28,7 +28,7 @@ body {
   font-size: 1.1rem;
 }
 
-.header-nav > img {
+.header-nav > a > img {
   height: 30px;
   width: auto;
   position: absolute;
@@ -41,12 +41,19 @@ body {
   padding: 0;
   position: absolute;
   right: 2rem;
-  top: .85rem;
+
+  height: 100%;
 }
 
 .header-nav > ul > li {
   display: inline-block;
-  margin-left: .4rem
+  height: 100%;
+  padding: 0 .4rem 0 .4rem;
+}
+
+.header-nav > ul > li > a {
+  margin-top: .8rem;
+  display: inline-block;
 }
 
 .header-nav > ul > li > a:link {
@@ -66,6 +73,10 @@ body {
 }
 
 .header-nav > ul > li > a:visited {
-  color: white;
+  color: #FFF;
   text-decoration: none;
+}
+
+.active {
+  background-color: #462C21;
 }
